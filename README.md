@@ -69,8 +69,7 @@ Copy code</ul>
 <li>List All Contacts</li>
 <ul>List all contacts in your address book : </ul>
 
-<ul>bash
-Copy code</ul>
+<ul>bashCopy code</ul>
 <ul>contacts list</ul>
 </ol>
 <h2>Examples</h2>
