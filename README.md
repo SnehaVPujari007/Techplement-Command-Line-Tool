@@ -1,4 +1,4 @@
-<h1> Command Line Tool</h1>
+<h1>Contacts CLI Tool</h1>
 <h2>Overview</h2>
 <p>The Contacts CLI Tool is a command-line application designed to manage and access your contacts easily. This tool allows you to add, update, delete, and search for contacts efficiently from the terminal.</p>
 
