@@ -15,7 +15,7 @@
 <b>Prerequisites</b></br>
 <ul>Ensure you have Python 3.7 or above installed.</ul>
 <ul>Installation Steps : </ul>
-<ol>
+
   <li>Clone the repository:</li>
 <ul>bash
 Copy code</ul>
@@ -74,25 +74,20 @@ Copy code</ul>
 <ul>contacts list</ul>
 </ol>
 <h2>Examples</h2>
-<li>Add a Contact</li>
-<ul>bash
-Copy code</ul>
-<ul>contacts add --name "Alice Johnson" --phone "555-1234" --email "alice.j@example.com"</ul>
-<li>Update a Contact</li>
-<ul>bash
-Copy code</ul>
+<li><b>Add a Contact</b></li>
+<p>bash Copy code</p>
+<p>contacts add --name "Alice Johnson" --phone "555-1234" --email "alice.j@example.com"</p>
+<li><b>Update a Contact</b></li>
+<ul>bash Copy code</ul>
 <ul>contacts update --id 2 --phone "555-5678"</ul>
-<li>Delete a Contact</li>
-<ul>bash
-Copy code</ul>
+<li><b>Delete a Contact</b></li>
+<ul>bash Copy code</ul>
 <ul>contacts delete --id 3</ul>
-<li>Search for a Contact</li>
-<ul>bash
-Copy code</ul>
+<li><b>Search for a Contact</b></li>
+<ul>bash Copy code</ul>
 <ul>contacts search --name "Alice"</ul>
-<li>List All Contacts</li>
-<ul>bash
-Copy code</ul>
+<li><b>List All Contacts</b></li>
+<ul>bash Copy code</ul>
 <ul>contacts list</ul>
 <h2>Contributing</h2>
 <li>Please follow these steps:</li> </br>
