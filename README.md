@@ -99,7 +99,7 @@ Copy code</ul>
 </ol> </br>
 
 
-By following this README, you should be able to set up, run, and understand the Contacts CLI Tool. Enjoy managing your contacts efficiently!
+**By following this README, you should be able to set up, run, and understand the Contacts CLI Tool. Enjoy managing your contacts efficiently!**
 
 
 
