@@ -17,20 +17,16 @@
 <ul>Installation Steps : </ul>
 
   <li>Clone the repository:</li>
-<ul>bash
-Copy code</ul>
-<ul>git clone https://github.com/yourusername/contacts-cli-tool.git</ul>
+
+<ul>git clone https://github.com/SnehaVPujari007/Techplement-Command-Line-Tool.git</ul>
 <li>Navigate to the project directory:</li>
-<ul>bash
-Copy code</ul>
+
 <ul>cd contacts-cli-tool</ul>
 <li>Install the required dependencies:</li>
-<ul>bash
-Copy code</ul>
+
 <ul>pip install -r requirements.txt</ul>
 <li>Install the tool:</li>
-<ul>bash
-Copy code</ul>
+
 <ul>python setup.py install</ul>
 </ol>
 
@@ -38,55 +34,43 @@ Copy code</ul>
 <ul>After installation, you can use the contacts command to interact with your contacts list.</ul>
 
 <li><b>Basic Command Structure</b></li>
-<ul>bash Copy code</ul>
-<ul>contacts [command] [options]</ul>
+
+
 <li><b>Commands</b></li></br>
 <ol type = "1">
-<li>Add a Contact</li>
+<li>Add a Contact</li> </br>
 <ul>Add a new contact to your list : </ul>
-
-<ul>bash
-Copy code</ul>
-<ul>contacts add --name "John Doe" --phone "123-456-7890" --email "john.doe@example.com"</ul>
-<li>Update a Contact</li>
+<ul>contacts add --name "John Doe" --phone "123-456-7890" --email "john.doe@example.com"</ul> </br>
+<li>Update a Contact</li> </br>
 <ul>Update an existing contact's information : </ul>
-
-<ul>bash
-Copy code</ul>
-<ul>contacts update --id 1 --name "John Smith" --phone "987-654-3210"</ul>
-<li>Delete a Contact</li>
+<ul>contacts update --id 1 --name "John Smith" --phone "987-654-3210"</ul> </br>
+<li>Delete a Contact</li> </br>
 <ul>Delete a contact from your list : </ul>
-
-<ul>bash
-Copy code</ul>
-<ul>contacts delete --id 1</ul>
-<li>Search for a Contact</li>
+<ul>contacts delete --id 1</ul> </br>
+<li>Search for a Contact</li> </br>
 <ul>Search for a contact by name or phone number : </ul>
 
-<ul>bash
-Copy code</ul>
-<ul>contacts search --name "John"</ul>
-<li>List All Contacts</li>
-<ul>List all contacts in your address book : </ul>
 
-<ul>bashCopy code</ul>
-<ul>contacts list</ul>
+<ul>contacts search --name "John"</ul> </br>
+<li>List All Contacts</li> </br>
+<ul>List all contacts in your address book : </ul>
+<ul>contacts list</ul> </br>
 </ol>
 <h2>Examples</h2>
-<li><b>Add a Contact</b></li>
-<p>bash Copy code</p>
+<li><b>Add a Contact</b></li> </br>
+
 <p>contacts add --name "Alice Johnson" --phone "555-1234" --email "alice.j@example.com"</p>
-<li><b>Update a Contact</b></li>
-<ul>bash Copy code</ul>
+<li><b>Update a Contact</b></li> </br>
+
 <ul>contacts update --id 2 --phone "555-5678"</ul>
-<li><b>Delete a Contact</b></li>
-<ul>bash Copy code</ul>
+<li><b>Delete a Contact</b></li> </br>
+
 <ul>contacts delete --id 3</ul>
-<li><b>Search for a Contact</b></li>
-<ul>bash Copy code</ul>
+<li><b>Search for a Contact</b></li> </br>
+
 <ul>contacts search --name "Alice"</ul>
-<li><b>List All Contacts</b></li>
-<ul>bash Copy code</ul>
+<li><b>List All Contacts</b></li> </br>
+
 <ul>contacts list</ul>
 <h2>Contributing</h2>
 <li>Please follow these steps:</li> </br>
